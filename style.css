@@ -110,3 +110,18 @@ main {
     font-weight: 700;
     font-size: 1rem;
 }
+
+@media(min-width: 1008px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
+}
